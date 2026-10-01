@@ -1,0 +1,35 @@
+email_provider = "duckmail"
+[cloudflare_temp_email]
+api_url = ""
+admin_auth = ""
+domain = ""
+
+[duckmail]
+api_url = "https://api.duckmail.sbs"
+domain = "niceground.shop"
+api_key = ""
+
+[mail_tm]
+api_url = "https://api.mail.tm"
+domain = ""
+
+[captcha]
+mode = "nonecap" # manual | yescaptcha | captcharun | nonecap
+yescaptcha_client_key = ""
+yescaptcha_api_url = "https://api.yescaptcha.com"
+captcharun_token = ""
+captcharun_api_url = "https://api.captcha-run.com"
+nonecap_api_key = "nc_live_GImTYJjDBCwUI10LQNPHDCJIrRD9IMGq"
+poll_interval_seconds = 3
+timeout_seconds = 180
+
+[nvidia]
+output_csv = "accounts.csv"
+key_name = "api"
+account_name = "nvorg"
+key_expiry_date = "2126-05-08T08:00:00Z"
+
+[browser]
+headless = false
+close_delay_seconds = 3
+channel = ""
